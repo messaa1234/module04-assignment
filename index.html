@@ -2,39 +2,80 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>موقع ميساء - Module 4</title>
+  <title>موقعي - ميساء</title>
   <style>
     body {
-      background: linear-gradient(to bottom right, #f7e9ff, #cdb4db);
+      background: linear-gradient(to bottom, #e6ccff, #f2e6ff);
       font-family: 'Tahoma', sans-serif;
       text-align: center;
-      padding: 50px;
-      color: #4a148c;
+      color: #4B0082;
     }
-
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 22px;
-      color: #6a1b9a;
-    }
-
-    .box {
-      background-color: white;
+    .container {
+      margin-top: 80px;
+      background-color: #ffffffcc;
       padding: 30px;
       border-radius: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 80%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      display: inline;
+      margin: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: #800080;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #ff00cc;
+    }
+    .contact a {
       display: inline-block;
+      margin-top: 10px;
+      color: #4B0082;
     }
   </style>
 </head>
 <body>
-  <div class="box">
+  <div class="container">
     <h1>مرحباً بكم في موقعي!</h1>
-    <p>أنا ميساء، وهذا مشروعي لمهمة Module 4 ✨</p>
+    <p>أنا ميساء، وهذا مشروعي لمهمة ✨ Module 4</p>
+
+    <img src="https://via.placeholder.com/150" alt="صورتي">
+
+    <ul>
+      <li><a href="#">عنّي</a></li>
+      <li><a href="#">مشاريعي</a></li>
+      <li><a href="#">تواصلي</a></li>
+    </ul>
+
+    <hr>
+    <h2>من أنا؟</h2>
+    <p>
+      أنا طالبة في جامعة أم درمان الأهلية، أدرس تقنية المعلومات، وأحب التصميم والتعلم الإلكتروني 💻🎨.<br>
+      أطمح لأكون مطورة ويب محترفة وأصمم مواقع رائعة ومفيدة للمجتمع.
+    </p>
+
+    <div class="contact">
+      <h3>تواصل معي</h3>
+      <p>
+        📧 البريد: <a href="mailto:example@email.com">example@email.com</a><br>
+        🟪 إنستقرام: <a href="https://instagram.com/username" target="_blank">@username</a>
+      </p>
+    </div>
   </div>
 </body>
 </html>
